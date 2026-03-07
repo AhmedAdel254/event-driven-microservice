@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const activitySchema = new mongoose.Schema({
-  userId: { type: String, index: true },
+  userId: String,
   action: String,
   timestamp: Date
 });
